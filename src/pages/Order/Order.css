@@ -1,0 +1,33 @@
+.order__form {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order__input {
+  width: 70%;
+  margin: 15px;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid rgba(19, 20, 22, 0.164);
+  border-left: 2px solid rgb(43, 102, 9);
+}
+
+#service_type {
+  width: 70%;
+  margin: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 47, 255);
+  border-radius: 5px;
+}
+
+.order__submit {
+  width: 20%;
+  padding: 15px;
+  border: none;
+  background-color: rgb(0, 47, 255);
+  color: #fff;
+}

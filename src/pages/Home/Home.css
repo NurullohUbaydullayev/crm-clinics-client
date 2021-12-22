@@ -1,0 +1,43 @@
+.intro .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro__left {
+  width: 100%;
+  max-width: 445px;
+}
+
+.intro__heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.intro__text {
+  margin-bottom: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+
+.signup-link {
+  display: inline-block;
+  padding: 3px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  text-decoration: none;
+  background: #458ff6;
+  border-radius: 55px;
+  color: #ffffff;
+}
